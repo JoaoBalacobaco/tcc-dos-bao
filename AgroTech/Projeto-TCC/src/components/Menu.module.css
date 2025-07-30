@@ -1,0 +1,24 @@
+.container{
+  height: 5vh;
+  background-color: #57b188;
+}
+.conteudo{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.c2{
+  padding-left: 10%;
+  padding-right: 10%;
+}.drop{
+  display: none;
+}
+.drop div{
+  background-color: blue;
+  width: 4.2vw;
+}
+.c1:hover .drop{
+  display: block;
+  position: absolute;
+}
